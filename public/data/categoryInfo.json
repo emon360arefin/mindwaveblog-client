@@ -1,0 +1,72 @@
+[
+    {
+        "category": "Technology",
+        "subCategory": [
+            "Artificial Intelligence",
+            "Cybersecurity",
+            "Software Development",
+            "Web Development",
+            "Data Science"
+        ]
+    },
+    {
+        "category": "Life Style",
+        "subCategory": [
+            "Health and Wellness",
+            "Fashion and Beauty",
+            "Travel and Adventure",
+            "Food and Cooking",
+            "Personal Development"
+        ]
+    },
+    {
+        "category": "Science",
+        "subCategory": [
+            "Physics",
+            "Biology",
+            "Chemistry",
+            "Astronomy",
+            "Earth Sciences"
+        ]
+    },
+    {
+        "category": "Business",
+        "subCategory": [
+            "Entrepreneurship",
+            "Marketing",
+            "Finance",
+            "Management",
+            "E-commerce"
+        ]
+    },
+    {
+        "category": "Arts",
+        "subCategory": [
+            "Visual Arts",
+            "Performing Arts",
+            "Literature",
+            "Music",
+            "Film and Cinema"
+        ]
+    },
+    {
+        "category": "Sports",
+        "subCategory": [
+            "Soccer (Football)",
+            "Basketball",
+            "Tennis",
+            "Swimming",
+            "Athletics"
+        ]
+    },
+    {
+        "category": "Home and Garden",
+        "subCategory": [
+            "Gardening",
+            "Home Decor",
+            "DIY Projects",
+            "Organization",
+            "Interior Design"
+        ]
+    }
+]
