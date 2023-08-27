@@ -36,7 +36,7 @@ const Write = () => {
                 }
 
             })
-            .catch(error => {
+            .catch(err => {
                 toast.error(err.message)
             })
     }
@@ -47,7 +47,6 @@ const Write = () => {
         e.preventDefault()
 
         const title = e.target.title.value;
-        const image = blogIMG;
         const content = e.target.content.value;
         const category = e.target.category.value;
         const subCategory = e.target.subCategory.value
@@ -87,7 +86,7 @@ const Write = () => {
 
 
     useEffect(() => {
-        fetch('/public/data/categoryInfo.json')
+        fetch('/data/categoryInfo.json')
             .then(res => res.json())
             .then(data => setCategoryInfo(data))
     }, [])
