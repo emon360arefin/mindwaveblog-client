@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import BlogCard from './BlogCard';
 import Heading from '../../../Components/Shared/Heading/Heading';
 import Loader from '../../../Components/Shared/Loader/Loader';
@@ -70,7 +70,8 @@ const HomeBlog = () => {
                                     className={`inline px-4 py-3 leading-none  md:w-full md:flex items-center md:pl-8 rounded-full mr-2 md:mt-0 mt-2 cursor-pointer hover:shadow-md  transition-all duration-200 ease-in-out select-none ${selectedTag === "All" ? 'bg-theme-primary text-white shadow-md' : 'bg-white hover:bg-theme-accent'} `}
                                 >All</h2>
                                 {
-                                    newtag && newtag.map(tag => <h2
+                                    newtag && newtag.map((tag, index) => <h2
+                                        key={index}
                                         onClick={() => setSelectedTag(tag)}
                                         className={`md:w-full inline px-4 py-3 leading-none  md:flex items-start justify-start md:pl-8 rounded-full mr-2 mt-2 cursor-pointer hover:shadow-md  transition-all duration-200 ease-in-out select-none  ${tag === selectedTag ? 'bg-theme-primary text-white shadow-md' : 'bg-white hover:bg-theme-accent'} `}
                                     >{tag}</h2>)

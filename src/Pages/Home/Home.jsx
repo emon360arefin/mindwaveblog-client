@@ -1,8 +1,8 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import HeroSection from './HeroSection';
 import HomeBlog from './Homeblog/Homeblog';
 import { AuthContext } from '../../Components/Authprovider/Authprovider';
-import StickyPanel from './StickyPanel/StickyPanel';
+// import StickyPanel from './StickyPanel/StickyPanel';
 import Blog from '../Blog/Blog';
 
 const Home = () => {
