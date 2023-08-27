@@ -74,7 +74,7 @@ const Footer = () => {
 
 
                 </div>
-                <p className='text-center text-slate-400 text-sm pt-8 mt-6 border-t border-slate-300'>@2023 Emon Arefin. All Rights Reserved</p>
+                <p className='text-center text-slate-400 text-sm pt-8 mt-6 border-t border-slate-300'>@2023 Mindwave | Emon Arefin. All Rights Reserved</p>
             </div>
         </div>
     );
