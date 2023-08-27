@@ -27,7 +27,7 @@ const HomeBlog = () => {
     }
 
 
-    const allTags = blogs && tags.concat(...blogs?.map(blog => blog.category));
+    const allTags = blogs && tags.concat(...blogs.map(blog => blog.category));
 
     allTags && allTags.map(tag => {
         if (!newtag.includes(tag)) {

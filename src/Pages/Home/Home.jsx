@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import HeroSection from './HeroSection';
-import HomeBlog from './Homeblog/Homeblog';
+import HomeBlog from './Homeblog/HomeBlog';
 import { AuthContext } from '../../Components/Authprovider/Authprovider';
 // import StickyPanel from './StickyPanel/StickyPanel';
 import Blog from '../Blog/Blog';
