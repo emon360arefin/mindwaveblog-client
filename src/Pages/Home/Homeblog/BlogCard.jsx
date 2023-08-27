@@ -269,7 +269,7 @@ const BlogCard = (props) => {
 
                     <Link
                         to={`/blogpost/${_id}`}
-                        className=' overflow-hidden rounded-md border border-slate-200'>
+                        className=' overflow-hidden rounded-md'>
                         <img className='rounded-md h-[250px] w-[480px] object-cover  object-center border-slate-200' src={image_url} alt="" />
                     </Link>
 
