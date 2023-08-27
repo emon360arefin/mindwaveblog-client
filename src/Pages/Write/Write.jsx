@@ -189,7 +189,7 @@ const Write = () => {
 
                                         {
                                             selectedCategory.subCategory.map((sub, index) => (
-                                                <option value={sub}>{sub}</option>
+                                                <option key={index} value={sub}>{sub}</option>
                                             ))
                                         }
 
