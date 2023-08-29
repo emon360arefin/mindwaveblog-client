@@ -10,6 +10,7 @@ import Blogpost from "../Pages/Home/Homeblog/Blogpost";
 import Blog from "../Pages/Blog/Blog";
 import PrivateRoute from "./PrivateRoute";
 import Write from "../Pages/Write/Write";
+import About from "../Pages/About/About";
 
 
 const router = createBrowserRouter([
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
             {
                 path: '/write',
                 element: <PrivateRoute><Write></Write></PrivateRoute>
+            },
+            {
+                path: '/about',
+                element: <About></About>
             }
         ]
     },

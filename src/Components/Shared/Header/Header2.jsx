@@ -15,6 +15,7 @@ const Header2 = () => {
 
     let items = [
         { "id": 1, "name": "Home", "path": "/" },
+        
 
         { "id": 3, "name": "Write", "path": "/write" }
     ]

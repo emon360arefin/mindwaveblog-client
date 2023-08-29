@@ -4,6 +4,7 @@ import HomeBlog from './Homeblog/HomeBlog';
 import { AuthContext } from '../../Components/Authprovider/Authprovider';
 // import StickyPanel from './StickyPanel/StickyPanel';
 import Blog from '../Blog/Blog';
+import About from '../About/About';
 
 const Home = () => {
     const { user } = useContext(AuthContext)
@@ -15,6 +16,7 @@ const Home = () => {
                     !user ? <>
                         <HeroSection></HeroSection>
                         <HomeBlog></HomeBlog>
+                        <About></About>
                     </> :
                         <div className='flex flex-col-reverse md:flex-row gap-4  max-w-7xl mx-auto'>
                             {/* Left Col */}

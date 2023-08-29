@@ -8,12 +8,13 @@ const Footer = () => {
     const { user } = useContext(AuthContext);
 
     let items = [
-        { "id": 1, "name": "Publish Your First Blog", "path": "/write" }
+        { "id": 1, "name": "Publish Your First Blog", "path": "/write" },
+        { "id": 2, "name": "About", "path": "/about" },
     ]
 
 
     return (
-        <div className='bg-theme-accent py-16 z-40'>
+        <div className='bg-[#E5EDF8] py-16 z-40'>
             <div className='max-w-7xl mx-auto px-2'>
                 <div className='  grid md:grid-cols-6 grid-col-1  gap-6'>
                     <div className='col-span-2 pr-6 pl-12 md:pl-0'>
@@ -48,7 +49,7 @@ const Footer = () => {
                             <button className='text-slate-500 font-semibold text-sm'>Life Style</button>
                             <button className='text-slate-500 font-semibold text-sm'>Science</button>
                             <button className='text-slate-500 font-semibold text-sm'>Arts</button>
-                            
+
 
                         </div>
 
