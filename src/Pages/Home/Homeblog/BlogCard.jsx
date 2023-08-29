@@ -109,7 +109,7 @@ const BlogCard = (props) => {
     const handleFavorite = (email, id) => {
 
         if (!email) {
-            toast.error("Please login first to add favorite recipe")
+            toast.error("Please login first to like the post")
             return
         }
 
