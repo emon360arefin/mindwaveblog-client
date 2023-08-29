@@ -19,7 +19,7 @@ const Footer = () => {
                 <div className='  grid md:grid-cols-6 grid-col-1  gap-6'>
                     <div className='col-span-2 pr-6 pl-12 md:pl-0'>
                         <img src="/logo-1.svg" className='md:h-12 h-12' alt="" />
-                        <p className='text-slate-500 my-6'>"Welcome to a culinary haven where flavors collide, techniques inspire, and creativity flourishes!"</p>
+                        <p className='text-slate-500 my-6'>"Immerse yourself in a dynamic community of bloggers, where insightful exploration and shared wisdom fuel the journey of personal evolution!"</p>
                         <div className='flex gap-4'>
                             <div className='bg-white rounded-full w-10 h-10 p-2'>
                                 <button><img className=' ' src="/social1.png" alt="" /></button>
