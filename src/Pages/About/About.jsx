@@ -17,11 +17,12 @@ const About = () => {
                     subheading='Embark on a Journey of Insight and Inspiration: Exploring Stories, Ideas, and Experiences that Shape Our Blogging Narrative'></Heading>
 
                 <div className='flex flex-col gap-4 mt-10'>
-                    <div className="h-72 overflow-hidden relative rounded">
+                    <div className="h-72 overflow-hidden  rounded">
 
                         <img
                             src="/team.jpg"
                             alt=""
+                            className="object object-cover object-center"
 
                         />
                     </div>
